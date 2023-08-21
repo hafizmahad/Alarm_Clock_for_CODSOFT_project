@@ -12,20 +12,7 @@ class WorldList extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SingleChildScrollView(
       scrollDirection: Axis.horizontal,
-      child: Row(
-        children: [
-          WorldCard(
-              plusTime: 3,
-              name: 'New York , USA',
-              image: 'assets/icons/Liberty.svg',
-              plus: '+3HRS | EST'),
-          WorldCard(
-              plusTime: 4,
-              name: 'Istambol , Turky',
-              image: 'assets/icons/world.svg',
-              plus: '+4HRS | EST'),
-        ],
-      ),
+
     );
   }
 }
